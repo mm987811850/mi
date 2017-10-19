@@ -124,13 +124,13 @@
 }
 // 内容滑动
 {
-    let neirongs = document.querySelectorAll(".stargaobox");
+    let neirongs = document.querySelectorAll(".neirong-inner");
 
     function neirongFn(par) {
-        let dots = par.querySelectorAll(".neirongBox2_1_lunbo");
+        let dots = par.querySelectorAll(".neirong-dots span");
         let container = par.querySelector("#neirong .container ");
-        let nrArrowPrev = par.querySelector(".neirongBox2_1_jiantouleft");
-        let nrArrowNext = par.querySelector(".neirongBox2_1_jiantouright");
+        let nrArrowPrev = par.querySelector(".neirong-prev");
+        let nrArrowNext = par.querySelector(".neirong-next");
         let num = 0;
 
         function nrFn(ele, index) {
